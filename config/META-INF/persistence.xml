@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+	http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+	
+	<!-- persistence-unit：持久化单元，可以理解为一些实体Bean的集合。
+		 transaction-type：事务类型
+               JTA：全局事务：用于不同数据库间的提交，典型的例子是转帐。
+    		   RESOURCE_LOCAL：本地事务：用于同一数据库内的提交。
+	 -->
+	<persistence-unit name="liuxuehui-persistence-unit" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<properties>
+			<!-- oracle
+			<property name="hibernate.connection.driver_class"
+				value="oracle.jdbc.driver.OracleDriver" />
+			<property name="hibernate.dialect"
+				value="org.hibernate.dialect.OracleDialect" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.format_sql" value="true" />
+			 -->
+			 <property name="hibernate.connection.driver_class"	value="com.mysql.jdbc.Driver" />
+			 <!-- 配置数据库方言 -->
+			<property name="hibernate.dialect"  value="org.hibernate.dialect.MySQLDialect" />
+			
+			<!-- 实现正向工程,即由java代码生成数据库脚本
+			     update : 最常用的属性，也根据model类生成表,即使表结构改变了,表中的行仍然存在,不会删除以前的行    -->
+			<property name="hibernate.hbm2ddl.auto" value="update" /> 
+			
+			<!-- 是否在后台显示Hibernate用到的SQL语句，开发时设置为true，便于差错，
+				 程序运行时可以在Eclipse的控制台显示Hibernate的执行Sql语句。项目部署后可以设置为false，提高运行效率--> 
+			<property name="hibernate.show_sql" value="true" />
+			
+			<!-- 输出格式化后的sql,更方便查看  -->
+			<property name="hibernate.format_sql" value="true" />
+			
+			
+		</properties>
+	</persistence-unit>
+</persistence>

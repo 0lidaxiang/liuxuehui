@@ -1,0 +1,70 @@
+body{
+    font-family:"Microsoft YaHei","微软雅黑",Arial,"Lucida Grande",Verdana,sans-serif;
+}
+.dropdown-menu li a{
+    line-height: 40px;
+}
+.nav_touxiang li a{
+    height: 80px;
+    line-height: 50px;
+}
+.nav_touxiang img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#content{
+    margin-top: 25px;
+    min-height: 800px;
+}
+#jianJie{
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+#jianJie h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.lianxi{
+    height: 100px;
+    background-color: #EEEEEE;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.lianxi span{
+    line-height: 30px;
+}
+.panel-body{
+    padding-left: 40px;
+}
+.panel-body .media img{
+    width: 64px;
+}
+.panel-body .chengji{
+    padding-left: 45px;
+    text-indent:-45px;
+}
+.panel-body .offer{
+    padding-left: 45px;
+    text-indent:-45px;
+}
+.panel-body .xuanze{
+    padding-left: 45px;
+    text-indent:-45px;
+}
+.geRenXinXi span{
+    font-size: 16px;
+    line-height: 30px;
+}
+.geRenXinXi span p{
+    padding-left: 45px;
+}
+#footer{
+    height: 150px;
+    width: 100%;
+    /*background-color: #EEEEEE;*/
+    background-color: #555555;
+}

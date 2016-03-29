@@ -1,0 +1,208 @@
+body{
+    font-family:"Microsoft YaHei","微软雅黑",Arial,"Lucida Grande",Verdana,sans-serif;
+}
+ul,li{
+    text-decoration: none;
+    list-style: none;
+}
+.dropdown-menu li{
+    height: 40px;
+}
+.dropdown-menu li a{
+    line-height: 40px;
+}
+.nav_touxiang li a{
+    height: 80px;
+    line-height: 50px;
+}
+.nav_touxiang img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.weiZhi{
+    height: 40px;
+    line-height: 40px;
+}
+.weiZhi span{
+    font-size: 16px;
+    padding-left: 35px;
+    line-height: 30px;
+    background: url("../img/home.gif") no-repeat 0px 0px;
+    padding-bottom: 5px;
+}
+#content{
+    min-height: 400px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+#content .image-content{
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+#content .image-content .big-img{
+    height: 300px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#content .image-content .thumbnail{
+    box-shadow: 0px 0px 8px 1px #CCCCCC;
+}
+#content .image-content .tab{
+    color: #ffffff;
+    background-color: #42B4EA;
+    border-radius: 10px 10px 0px 0px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+    text-shadow: 0px 0px 2px white;
+}
+#content .image-content .text-content{
+    min-height: 200px;
+    border: 1px solid #D1D1D1;
+    margin-bottom: 20px;
+}
+#content .image-content .text-content .jieShao{
+    margin: 15px;
+    min-height: 100px;
+    background-color: #EDEDED;
+    padding: 20px;
+    border-radius: 5px;
+}
+#content .image-content .text-content .jieShao p{
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 25px;
+}
+#content .image-content .text-content hr{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#content .image-content .right-img{
+    height: 308px;
+    background-color: #ffffff;
+    background: url("../img/qihang2.jpg") no-repeat center bottom;
+}
+
+
+
+
+
+
+
+
+
+
+.dengLuZhuCe{
+    background-color: #7DC9ED;
+    min-height: 150px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.dengLuZhuCe h1{
+    font-size: 30px;
+    text-shadow: 0px 2px 2px black;
+}
+.dengLuZhuCe a{
+    padding: 4px 20px 4px 20px;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+#footer{
+    min-height: 260px;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding-bottom: 15px;
+}
+#footer .diBuNav h1{
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+#footer .diBuNav .lianXi{
+    padding: 0px;
+}
+#footer .diBuNav .lianXi span{
+    display: block;
+    height: 40px;
+    padding-left: 50px;
+    line-height: 40px;
+    font-size: 15px;
+}
+#footer .diBuNav .tel{
+    background: url("../img/tel.gif") no-repeat 0px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#footer .diBuNav .diZhi{
+    background: url("../img/diZhi.gif") no-repeat 0px 0px;
+}
+#footer .diBuNav .navContent{
+    margin-top: 30px;
+}
+#footer .diBuNav .navContent span{
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 30px;
+}
+#footer .diBuNav .navContent a{
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    line-height: 30px;
+    text-shadow: 0px 2px 2px lightgrey;
+}
+@media screen and (min-width: 970px){
+    .navigator{
+        min-height: 80px;
+        background-color: #FFFFFF;
+    }
+    .navigator .logo{
+        padding: 0px;
+        height: 80px;
+    }
+    .navigator .logo img{
+        width: 120px;
+        height: 80px;
+    }
+    .navigator a{
+        line-height: 80px;
+        font-weight: 900;
+    }
+    .navigator .nav-content{
+        height: 80px;
+        margin-left: 20px;
+    }
+    .navigator .nav-content li{
+        height: 80px;
+    }
+    .navigator .nav-content li a{
+        margin-top: 15px;
+    }
+    .navigator .nav-content li a:hover{
+        color: red;
+    }
+    .dropdown-menu li{
+        height: 40px!important;
+    }
+}
+@media screen and (max-width: 969px){
+    .navigator .logo{
+        padding: 0px;
+    }
+    .navigator .logo img{
+        height: 50px;
+    }
+}
+@media screen and (max-width: 768px){
+    #content{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

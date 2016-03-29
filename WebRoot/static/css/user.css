@@ -1,0 +1,170 @@
+body{
+    font-family:"Microsoft YaHei","Î¢ÈíÑÅºÚ",Arial,"Lucida Grande",Verdana,sans-serif;
+}
+ul,li{
+    text-decoration: none;
+    list-style: none;
+}
+.dropdown-menu li{
+    height: 40px;
+}
+.dropdown-menu li a{
+    line-height: 40px;
+}
+.nav_touxiang li a{
+    height: 80px;
+    line-height: 50px;
+}
+.nav_touxiang img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.main{
+    min-height: 400px;
+    margin-bottom: 30px;
+}
+.left_nav{
+    min-height: 400px;
+}
+.left_nav .touxiang{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+.left_nav_heng{
+    display:none;
+}
+.left_nav li{
+    margin-bottom: 20px;
+}
+.left_nav li a{
+    background-color: #e9e9e9;
+}
+.left_nav li.active a{
+    background-color: #00CCFF;
+}
+.left_nav li.active a:hover{
+    background-color: #00CCFF;
+}
+.right_content{
+    border-left:1px solid #DDDDDD;
+    min-height: 400px;
+}
+.right_content h4{
+    margin-bottom: 20px;
+}
+.right_content .uploadImg{
+    margin-left: 5%;
+}
+.right_content .uploadImg input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.modal-body p{
+    text-align: center;
+    color: #0099cc;
+    font-size: 15px;
+    font-weight: 900;
+}
+#footer{
+    min-height: 260px;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding-bottom: 15px;
+}
+#footer .diBuNav h1{
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+#footer .diBuNav .lianXi{
+    padding: 0px;
+}
+#footer .diBuNav .lianXi span{
+    display: block;
+    height: 40px;
+    padding-left: 50px;
+    line-height: 40px;
+    font-size: 15px;
+}
+#footer .diBuNav .tel{
+    background: url("../img/tel.gif") no-repeat 0px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#footer .diBuNav .diZhi{
+    background: url("../img/diZhi.gif") no-repeat 0px 0px;
+}
+#footer .diBuNav .navContent{
+    margin-top: 30px;
+}
+#footer .diBuNav .navContent span{
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 30px;
+}
+#footer .diBuNav .navContent a{
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    line-height: 30px;
+    text-shadow: 0px 2px 2px lightgrey;
+}
+@media screen and (min-width: 970px){
+    .navigator{
+        min-height: 80px;
+        background-color: #FFFFFF;
+    }
+    .navigator .logo{
+        padding: 0px;
+        height: 80px;
+    }
+    .navigator .logo img{
+        width: 120px;
+        height: 80px;
+    }
+    .navigator a{
+        line-height: 80px;
+        font-weight: 900;
+    }
+    .navigator .nav-content{
+        height: 80px;
+        margin-left: 20px;
+    }
+    .navigator .nav-content li{
+        height: 80px;
+    }
+    .navigator .nav-content li a{
+        margin-top: 15px;
+    }
+    .navigator .nav-content li a:hover{
+        color: red;
+    }
+    .dropdown-menu li{
+        height: 40px!important;
+    }
+}
+@media screen and (max-width: 969px){
+    .navigator .logo{
+        padding: 0px;
+    }
+    .navigator .logo img{
+        height: 50px;
+    }
+}
+@media screen and (max-width: 750px){
+    .left_nav{
+        border-right:none;
+        min-height:50px;
+    }
+    .left_nav_shu{
+        display: none;
+    }
+    .left_nav_heng{
+        display:block;
+    }
+
+}
+

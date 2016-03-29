@@ -1,0 +1,29 @@
+body{
+    font-family:"Microsoft YaHei","微软雅黑",Arial,"Lucida Grande",Verdana,sans-serif;
+}
+.dropdown-menu li a{
+    line-height: 40px;
+}
+.nav_touxiang li a{
+    height: 80px;
+    line-height: 50px;
+}
+.nav_touxiang img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.joinUs{
+    min-height: 600px;
+}
+
+
+
+
+#footer{
+    height: 150px;
+    width: 100%;
+    /*background-color: #EEEEEE;*/
+    background-color: #555555;
+}
